@@ -1,0 +1,19 @@
+# venv & Python cache
+.venv/
+__pycache__/
+*.pyc
+
+# Streamlit logs/cache (必要なら)
+.streamlit/
+
+# Local data (DBや一時CSV)
+data/
+*.db
+
+# env
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
